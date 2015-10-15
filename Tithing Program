@@ -1,0 +1,31 @@
+//
+//  main.cpp
+//  Tithing Program
+//
+//  Created by Jaden Ackroyd on 10/15/15.
+//  Copyright (c) 2015 Jaden Ackroyd. All rights reserved.
+//
+
+using namespace std;
+
+#include <iostream>
+
+int main() {
+    
+    //Delcaired Variables
+    double moneyEarned = 0.0;
+    const double TITHING_PERCENT = .10;
+    
+    //User Imput
+    cout << "Enter Amount Earned: ";
+    cin >> moneyEarned;
+    
+    //Algorithm
+    double tithingAmount = moneyEarned * TITHING_PERCENT;
+    
+    //Display
+    
+    cout << tithingAmount << "$" << endl;
+    
+    //stop thingy stuff program;
+}
