@@ -20,12 +20,12 @@ int main() {
     cout << "Enter Amount Earned: ";
     cin >> moneyEarned;
     
-    //Algorithm
+    //Imput Output
     double tithingAmount = moneyEarned * TITHING_PERCENT;
     
-    //Display
+    //User Display
     
-    cout << "Tithing: $" << tithingAmount << endl;
+    cout << "Tithing Amount: $" << tithingAmount << endl;
     
     return 0;
 }
